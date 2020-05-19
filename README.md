@@ -9,8 +9,9 @@ step1- create kafka topic "test1" with 2 partitions:
 
 step2- send some message to "test1" topic:
 ./bin/kafka-console-producer.sh --topic test1 --broker-list 192.168.0.5:9092
+
 \>hi1
->hi2
+\>hi2
 >hi3
 >hi4
 >hi5     
